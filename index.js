@@ -1,0 +1,1 @@
+window.UPNG = require("./UPNG");

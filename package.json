@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/photopea/UPNG.js/issues"
   },
+  "scripts": {
+    "build": "mkdir -p dist; browserify ./index.js > ./dist/UPNG.dist.js; uglifyjs ./dist/UPNG.dist.js > ./dist/UPNG.min.js"
+  },
   "main": "UPNG",
   "keywords": [
     "png",
@@ -20,6 +23,8 @@
     "conversion"
   ],
   "dependencies": {
-    "pako": "^1.0.5"
+    "browserify": "^16.2.3",
+    "pako": "^1.0.5",
+    "uglifyjs": "^2.4.11"
   }
 }
