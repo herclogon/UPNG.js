@@ -1,6 +1,6 @@
 # UPNG.js
 
-**\(same sa origin, but improved package.json with browser package build command)**
+**\(same sa origin, but `package.json` was improved with browser package build command)**
 
 A small, fast and advanced PNG / APNG encoder and decoder. It is the main PNG engine for [Photopea image editor](https://www.photopea.com).
 
