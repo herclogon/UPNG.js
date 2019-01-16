@@ -2,6 +2,11 @@
 
 **\(same as origin, but `package.json` was improved with browser package build command)**
 
+```bash
+npm install
+npm run build
+```
+
 A small, fast and advanced PNG / APNG encoder and decoder. It is the main PNG engine for [Photopea image editor](https://www.photopea.com).
 
 * [Examples of PNGs minified by UPNG.js](https://blog.photopea.com/png-minifier-inside-photopea.html#examples)
